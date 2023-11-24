@@ -31,7 +31,7 @@ export default function ListData() {
       <div className="grid gap-10 grid-cols-5 my-5 mx-auto">
         {filteredFunction.map((item: any, i: any) => {
           return (
-            <div className="mb-4" key={i}>
+            <div className="mb-4 shadow-lg" key={i}>
               <CardComponent name={item?.name} />
             </div>
           );
