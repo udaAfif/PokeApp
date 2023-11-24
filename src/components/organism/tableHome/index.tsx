@@ -21,7 +21,7 @@ export default function ListData() {
 
   return (
     <div className="flex flex-col justify-center mx-auto text-center py-4">
-      <h1 className="text-[#626F86] text-lg">Pokemon App</h1>
+      <h1 className="text-[#626F86] text-3xl">Pokemon App</h1>
       <div className="mb-4 mt-4 flex flex-row justify-center">
         <SearchBarComponent
           search={searchPokemon}
